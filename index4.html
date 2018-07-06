@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="javascript.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+    <style>
+        #primera {
+            height: 600px;
+            background: url("img/intro-1600.jpg");
+        }
+
+        #segunda {
+            height: 400px;
+        }
+
+        header {
+            height: 66px;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="primera">
+        <header>
+            <nav id="navbar" class="navbar navbar-expand-sm navbar-light fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img src="img/GoogleG.svg" height="30" width="30" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barra" aria-controls="barra" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="barra">
+                    <div class="navbar-nav ml-auto text-center">
+                        <a class="nav-item nav-link text-white mr-2 active" href="#">Inicio
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-item nav-link text-white mr-2" href="#">Precios</a>
+                        <a class="nav-item nav-link text-white mr-2" href="#">Iniciar Sesion</a>
+                        <a class="nav-item nav-link text-white mr-2" href="#">Registrarse</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="row  d-flex align-items-center">
+            <div class="col-12 d-flex justify-content-center segunda">
+                <div>
+                    <img src="img/google_drive-icon.svg" height="100" width="100" alt="">
+                </div>
+                <div>
+                    <h1 class="  d-none d-md-block text-white">Todos tus archivos estés donde estés</h1>
+                    <h2 class=" d-md-none d-block text-white">Todos tus archivos estés donde estés</h2>
+                    <button class="btn btn-primary btn-lg text-center p-3 mt-3">Ir a Google Drive</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
